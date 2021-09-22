@@ -34940,25 +34940,17 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: calc(((100% - 1140px) / 2) + 400px);
   }
 }
+.u-footer {
+  background-image: none;
+}
+
 .u-footer .u-sheet-1 {
   min-height: 120px;
 }
 
-.u-footer .u-social-icons-1 {
-  height: 32px;
-  min-height: 16px;
-  width: 74px;
-  min-width: 42px;
-  white-space: nowrap;
-  margin: 44px auto;
-}
-
-.u-footer .u-icon-1 {
-  color: rgb(197, 54, 164) !important;
-}
-
-.u-footer .u-icon-2 {
-  color: rgb(0, 122, 185) !important;
+.u-footer .u-text-1 {
+  width: 417px;
+  margin: 49px auto;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -34978,6 +34970,10 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
     min-height: 36px;
+  }
+
+  .u-footer .u-text-1 {
+    width: 340px;
   }
 }
 
